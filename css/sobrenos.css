@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+    
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+
+}
+
+
+.cabecalho__menu__link {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #82008E;
+    text-decoration: none;
+
+}
+
+.logoTipo {
+    width: 40%;
+
+}
+
+.icones {
+    
+    width: 60px;
+
+}
+
+/* Estilos gerais */
+.imagem_profissional {
+    box-sizing: border-box;
+    display: flex; /* Usa flexbox para layout */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha conforme necessário */
+    justify-content: center; /* Distribui os itens ao longo do espaço disponível */
+    width: 100vw;
+
+}
+
+.banner {
+    margin-top: 1.8%;
+    display: flex; /* Usa flexbox para layout */
+    justify-content: center; /* Distribui os itens ao longo do espaço disponível */
+    height: 1%; /* Altura */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha conforme necessário */
+    overflow: hidden;
+    height: 37vw; /* Altura relativa à largura do viewport */
+    align-items: center;
+    justify-items: center;
+    border-radius: 5%;
+}
+
+
+body{ 
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+
+.apresentacao {
+ 
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 7.5%;
+
+}
+
+
+
+.imagem {
+    width: 40%; /* Altere para o tamanho que desejar */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 20px;
+}
+
+.apresentacao__conteudo {
+    font-size: 27px;
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    color: #82008E;
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__titulo__sobre {
+    
+    color: #22D4FD;
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+
+apresentacao__missao {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 7.5%;
+}
+
+.carousel slide {
+    width: 30px;
+}
+
+.historia p {
+    
+    color: #000000;
+    font-size: 25px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.historia h1 {
+    color: #82008E;
+    font-size: 45px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}

@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    padding: 2% 2% 2% 15%;
+    
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+
+}
+
+.cabecalho__menu__link {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #82008E;
+    text-decoration: none;
+
+}
+
+.logoTipo {
+    width: 40%;
+
+
+
+}
+
+/* Estilos gerais */
+.imagem_profissional {
+    box-sizing: border-box;
+    display: flex; /* Usa flexbox para layout */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha conforme necessário */
+    justify-content: space-between; /* Distribui os itens ao longo do espaço disponível */
+    width: 100vw;
+
+}
+
+.banner {
+    margin-top: 1.8%;
+    display: flex; /* Usa flexbox para layout */
+    justify-content: space-between; /* Distribui os itens ao longo do espaço disponível */
+    height: 1%; /* Altura */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha conforme necessário */
+    overflow: hidden;
+    height: 30vw; /* Altura relativa à largura do viewport */
+}
+
+
+
+.icones {
+    
+    width: 60px;
+
+}
+
+
+h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fa-solid fa-code fa-4x fa-beat-fade {
+    margin: center;
+}
+
+
+
+.menu {
+    margin-top: 20%;
+    background-color: #7b45b9;
+    padding: 9vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    gap: 6px;
+   
+}
+
+.menu__botoes {
+
+    background-color: #ffffff;
+    margin-top: 3%;
+    width: 25rem;
+    height: 30rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    margin-bottom: 200px;
+
+}
+
+.menu__botoes:hover {
+    filter: brightness(93%);
+    cursor: pointer;
+    transform: scale(1.09);
+}
+
+
+
+.menu__botoes__imagem {
+    width: 94%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.menu__botoes__titulo {
+    color: black;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+
+    color: rgb(0, 0, 0);
+}
+
+.carousel slide {
+    width: 5%;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Garante que os itens na coluna estão centralizados horizontalmente */
+    justify-content: center; /* Adiciona centralização vertical */
+    text-align: center;
+    color: rgb(0, 255, 0);
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    width: 100%; /* Garante que ocupa toda a largura disponível */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.imagem_produto {
+    margin: 0; /* Remove qualquer margem */
+    padding: 0; /* Remove qualquer padding */
+    width: 100%; /* A largura ocupa 100% da tela */
+    height: 100vh; /* A altura ocupa 100% da altura da viewport */
+    object-fit: cover; /* Faz com que a imagem ocupe completamente o espaço disponível, cortando as partes que excedem */
+}
+
+body {
+    margin: 0; /* Remove qualquer margem do body */
+    padding: 0; /* Remove qualquer padding do body */
+    overflow-x: hidden; /* Evita barra de rolagem horizontal */
+}

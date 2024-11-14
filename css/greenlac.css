@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+    
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+
+}
+
+
+.cabecalho__menu__link {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #82008E;
+    text-decoration: none;
+
+}
+
+.logoTipo {
+    width: 40%;
+
+}
+
+.icones {
+    
+    width: 60px;
+
+}
+
+
+.cabecalho__menu.sticky {
+    transform: translateY(10); /* Animação de movimento */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra do menu ao ficar fixo */
+  }
+
+.cabecalho__menu__link:hover {
+    color: #00c220; /* Cor do link ao passar o mouse */
+  }
+
+/* Adicionando uma animação suave ao menu (opcional) */
+.cabecalho__menu.hidden {
+    transform: translateY(-100%);
+  }
+
+/* Estilos gerais */
+.imagem_profissional {
+    box-sizing: border-box;
+    display: flex; /* Usa flexbox para layout */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha conforme necessário */
+    justify-content: space-between; /* Distribui os itens ao longo do espaço disponível */
+    width: 100vw;
+
+}
+
+.banner {
+    margin-top: 1.8%;
+    display: flex; /* Usa flexbox para layout */
+    justify-content: space-between; /* Distribui os itens ao longo do espaço disponível */
+    height: 1%; /* Altura */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha conforme necessário */
+    overflow: hidden;
+    height: 50vw; /* Altura relativa à largura do viewport */
+}
+
+
+
+body{ 
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.apresentacao {
+ 
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 7.5%;
+
+}
+
+
+
+.menina {
+    width: 40%; /* Altere para o tamanho que desejar */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.apresentacao__conteudo {
+
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__titulo__sobre {
+    color: #22D4FD;
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.destaque {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__conteudo__botao {
+    
+    gap: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+
+
+
+.apresentacao__links__link {
+    background-color: #FC4FFF;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+    border: 2px solid  #ffffff;;
+    /* background-color: #22D4FD; */
+    width: 280px;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+}
+
+.produto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1% 15% 10%;
+}
+
+.destaque {
+    color: #22D4FD;
+}
+
+.rodape {
+    
+    padding: 70px;
+    color: rgb(255, 255, 255);
+    background-color: #75127E;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}

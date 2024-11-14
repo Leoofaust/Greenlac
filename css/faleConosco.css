@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+    
+}
+
+h1 {
+    color: rgb(179, 47, 255);
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+
+}
+
+
+.cabecalho__menu__link {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #82008E;
+    text-decoration: none;
+
+}
+
+.cabecalho__menu.sticky {
+    transform: translateY(0); /* Animação de movimento */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra do menu ao ficar fixo */
+  }
+  
+
+.logoTipo {
+    width: 40%;
+
+}
+
+
+.icones {
+    
+    width: 60px;
+
+}
+
+
+body{ 
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.faleConosco {
+ 
+    /* background-color: #f7f7f7; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 7.5%;
+
+}
+
+.campo_mensagem {
+    
+    padding: 10%;
+    border-radius: 30px;
+    margin-left: 40px;
+}
+
+.menina {
+    width: 40%; /* Altere para o tamanho que desejar */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.apresentacao__conteudo {
+
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__titulo__sobre {
+    color: #22D4FD;
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.destaque {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.campo_entrada {
+    margin-left: 20px;
+    padding: 14px;
+    border-radius: 30px;
+    
+}
+
+.campo_entrada {
+    margin-left: 40px;
+    padding: 14px;
+    border-radius: 30px;
+    
+}
+.apresentacao__conteudo__paragrafo {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__conteudo__botao {
+    color: white            ;
+    margin: 6% ;
+    background-color: rgb(179, 47, 255);
+    padding: 20px;
+    border-radius: 20px;
+    gap: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: larger
+}
